@@ -5,7 +5,7 @@ It is a simple HTML-based website developed to fulfill a course assignment.
 
 ## Features
 
-- Pure HTML structure
+- HTML
 - CSS
 - **Search Engine Optimization (SEO)** techniques were applied to improve visibility and accessibility
 
