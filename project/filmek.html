@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dinoszauruszok - Filmek</title>
+        <link href="./filmek.css" rel="stylesheet">
+        <link href="./header-footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="kipozicional">
+            <a id="ugras" href="#cim">Ugrás a tartalomra</a>
+        </div>
+        <header>
+            <div>
+                <img src="./logo.png" alt="T-rex logó">
+            </div>
+            <div id="gombok">
+                <nav>
+                    <a href="./index.html" id="kezdolap">KEZDŐLAP</a>
+                    <a id="filmek">FILMEK</a>
+                    <a href="./erdekessegek.html" id="érdekességek">ÉRDEKESSÉGEK</a>
+                    <a href="./madarmedencejuek.html" id="madármedencéjűek">MADÁRMEDENCÉJŰEK</a>
+                    <a href="./hullomedencejuek.html" id="hüllőmedencéjűek">HÜLLŐMEDENCÉJŰEK</a>
+                </nav>
+            </div>
+        </header>
+        <section id="cim">
+            <h1>DINOSZAURUSZOK A FILMEKBEN</h1>
+        </section>
+        <div id="main">
+            <div id="bevezető">
+                <p>A dinoszauruszok hosszú ideje inspirációt nyújtanak a <b>filmipar</b> számára is. A hatalmas és titokzatos lényekkel kapcsolatos érdeklődés gyakran megjelenik a filmekben, amelyek különböző műfajokban találhatók, beleértve a <i>kalandfilmeket</i>, a <i>tudományos fantasztikus filmeket</i> és még a <i>vígjátékokat</i> is. A dinoszauruszok közismert történeti hátterük miatt lenyűgözik a nézőket, miközben lehetőséget nyújtanak a fantáziálásra és a kreatív történetmesélésre. Ezek a filmek nemcsak szórakoztatóak, hanem hozzájárulnak a dinoszauruszok iránti érdeklődés fenntartásához és növeléséhez is a szélesebb közönség körében.</p>
+            </div>
+            <div id="videok">
+                <figure>
+                    <video controls poster="JurassicPark-kepkocka.png">
+                        <source src="./JurassicParkTrailer.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <p lang="en"><b>JURASSIC PARK</b>
+                            <br>(1993)
+                            <br>értékelés: 8,2</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <video controls poster="JurassicWorld-kepkocka.png">
+                        <source src="./JurassicWorldTrailer.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <p lang="en"><b>JURASSIC WORLD</b>
+                            <br>(2015)
+                            <br>értékelés: 6,9</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <video controls poster="TerraNova-kepkocka.png">
+                        <source src="./TerraNovaTrailer.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <p><b>TERRA NOVA</b>
+                            <br>(2011)
+                            <br>értékelés: 6,7</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <video controls poster="DinosaurProject-kepkocka.png">
+                        <source src="./TheDinosaurProjectTrailer.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <p><b>DINOSZAURUSZ PROJEKT</b>
+                            <br>(2012)
+                            <br>értékelés: 4,6</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <video controls poster="TheNewWorld-kepkocka.png">
+                        <source src="./TheNewWorldTrailer.mp4" type="video/mp4">
+                    </video>
+                    <figcaption>
+                        <p><b>ŐSLÉNYEK KALANDORAI: <br> ÚJ VILÁG</b>
+                            <br>(2007)
+                            <br>értékelés: 7,2</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <section id="urlap">
+            <h1>ÍRJ VÉLEMÉNYT AZ EGYIK FILMRŐL</h1>
+            <form action="mailto:bqjtv6@inf.elte.hu" method="POST" enctype="text/plain">
+                <fieldset>
+                    <legend id="valaszdkiafilmet">Válaszd ki a filmet</legend>
+                    <div id="valassz">
+                        <input type="radio" name="gomb" id="v1" value="Jurassic Park"><label for="v1" lang="en">Jurassic Park</label><br>
+                        <input type="radio" name="gomb" id="v2" value="Jurassic World"><label for="v2" lang="en">Jurassic World</label><br>
+                        <input type="radio" name="gomb" id="v3" value="Terra Nova"><label for="v3">Terra Nova</label><br>
+                        <input type="radio" name="gomb" id="v4" value="Dinoszaurusz projek"><label for="v4">Dinoszaurusz projek</label><br>
+                        <input type="radio" name="gomb" id="v5" value="Őslények kalandorai"><label for="v5">Őslények kalandorai</label><br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="velemeny" id="velemenyed">A véleményed:</label> <br>
+                    <textarea maxlength="1000" cols="60" rows="20" name="velemeny" id="velemeny" placeholder="Ide írd a véleményed..."></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend id="lattad">Láttad a filmet?</legend>
+                    <input type="checkbox" name="latta" id="latta" value="igen">
+                    <label for="latta">Pipáld be, ha igen</label>
+                </fieldset>
+                <fieldset>
+                    <legend id="elkuld">Adatok elküldése</legend>
+                    <input type="submit"> <input type="reset">
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <p>"Ha a múltba nézel, tudni fogod milyen a jövő."</p>
+            <p>@2024</p>
+            <p>Dinoszauruszok kft.</p>
+        </footer>
+        <div id="stilus">
+            <p>Stíluslap:</p>
+            <select id="styleSwitcher">
+                <option value="style1">Alap</option>
+                <option value="style2">Kontrasztos</option>
+            </select>
+        </div>
+        <script src="./switch.js"></script>
+    </body>
+</html>

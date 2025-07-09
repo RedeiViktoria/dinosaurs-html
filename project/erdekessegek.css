@@ -1,0 +1,215 @@
+/*A LINKEK A STYLE2-BEN NEM LÁTSZÓDNAK*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+/*HEAD*/
+div#gombok a {
+    color: #000000;
+}
+
+/*HEADER*/
+div#gombok a#érdekességek {
+    background-color:#000000;
+    color: #ffffff;
+}
+
+/*BODY style1*/
+section#cim {
+    background-image: url(./26.2.jpg);
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+h1 {
+    font-size: 600%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: #000000 7px 7px 20px;
+}
+h2#alcim {
+    text-align:center;
+    color: #ffffff;
+    font-size: 150%;
+    text-shadow: #000000 7px 7px 20px;
+}
+
+div#torzs {
+    display: flex;
+    flex-wrap: wrap;
+}
+div#cikkek img {
+    width: 250px;
+    height: auto;
+    box-shadow: #2c3933 7px 7px 7px;
+    border: #223c2f solid 3px;
+    text-align: center;
+}
+div#cikkek {
+    background-color: #50685c;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+div#cikkek figure {
+    flex: 1 1 20%;
+}
+div#cikkek figcaption{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 125%;
+}
+aside {
+    background-color: #50685c;
+    border: #2c3933 solid 2px;
+    padding: 1%;
+    background-color: rgb(111, 144, 127);
+    max-width: 15%;
+    display: flex;
+    align-items: center;
+}
+aside a {
+    color: #000000;
+}
+div#torzs a:visited {
+    color: #282828;
+}
+div#tablazat p {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+div#tablazat {
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    background-image: url(./proba3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+div#tablazat table {
+    background-color: #50685c;
+    text-align: center;
+    font-size: 125%;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    border: #000000 solid 5px;
+}
+div#tablazat thead {
+    background-color: #223c2f;
+    color: #ffffff;
+}
+div#tablazat td, th {
+    border: #000000 solid 1px;
+    padding: 2%;
+}
+div#tablazat tr#x1, tr#x2, tr#x3, tr#x4, tr#x5, tr#x6 {
+    background-color: rgb(111, 144, 127);
+}
+div#tablazat summary {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 200%;
+}
+
+/*BODY style2*/
+body.style2 section#cim {
+    background-image: none;
+    background-color: #000000;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+body.style2 h1 {
+    font-size: 600%;
+    text-align: center;
+    color: #ffffff;
+}
+body.style2 h2#alcim {
+    text-align:center;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+body.style2 div#torzs {
+    display: flex;
+    flex-wrap: wrap;
+}
+body.style2 div#cikkek img {
+    width: 250px;
+    height: auto;
+    border: #000000 solid 3px;
+    text-align: center;
+}
+body.style2 div#cikkek {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+body.style2 div#cikkek figure {
+    flex: 1 1 20%;
+}
+body.style2 div#cikkek figcaption{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 125%;
+}
+body.style2 aside {
+    background-color: #000000;
+    color: white;
+    padding: 1%;
+    max-width: 15%;
+    display: flex;
+    align-items: center;
+}
+body.stlye2 a {
+    color: #ffffff;
+}
+body.style2 div#torzs a:visited {
+    color: #979797;
+}
+
+
+body.style2 div#tablazat {
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    background-image: none;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+body.style2 div#tablazat table {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 175%;
+    border-spacing: 2px;
+    border-collapse: collapse;
+    border: #000000 solid 5px;
+}
+body.style2 div#tablazat thead {
+    background-color: #c0c0c0;
+    color: #000000;
+}
+body.style2 div#tablazat td, th {
+    border: #000000 solid 1px;
+    padding: 2%;
+}
+body.style2 div#tablazat tr#x1,body.style2 tr#x2,body.style2 tr#x3,body.style2 tr#x4,body.style2 tr#x5,body.style2 tr#x6 {
+    background-color: #eaeaea;
+}
+body.style2 div#tablazat summary {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 200%;
+}
+body.style2 div#tablazat p {
+    background-color: #000000;
+    color: #ffffff;
+}

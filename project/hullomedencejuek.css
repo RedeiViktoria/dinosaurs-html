@@ -1,0 +1,137 @@
+/*SYTLE2-NÉL A FŐ SZÖVEGEK ELCSÚSZNAK*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+/*HEAD*/
+div#gombok a {
+    color: #000000;
+}
+
+/*HEADER*/
+div#gombok a#hüllőmedencéjűek {
+    background-color:#000000;
+    color: #ffffff;
+}
+
+/*BODY style1*/
+section#bevezető {
+    background-color: #50685c;
+    padding: 2%;
+}
+section#bevezető h1 {
+    font-size: 300%;
+    text-align: center;
+}
+section#bevezető p {
+    font-size: 130%;
+    text-align: justify;
+    padding-right: 8%;
+    padding-left: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+div#tartalom {
+    background-color: #223c2f;
+    text-align: center;
+    color: #ffffff;
+    font-size: 120%;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+}
+div#tartalom img {
+    width: 70%;
+    height: auto;
+}
+div#tartalom figure {
+    flex: 1 1 10%;
+    margin: 1%;
+}
+
+div#main {
+    background-color: #50685c;
+}
+div#main img{
+    margin: 2%;
+    clear: both;
+    width: 20%;
+    height: auto;
+    border: #000000 solid 1px;
+    box-shadow: #233d2f 7px 7px 10px;
+}
+div#main p {
+    margin: 2%;
+    float: right;
+    font-size: 125%;
+    text-align: justify;
+    width: 70%;
+}
+div#main hr {
+    border-color: #000000;
+}
+
+/*BODY style2*/
+body.style2 section#bevezető {
+    background-color: #ffffff;
+    padding: 2%;
+}
+body.style2 section#bevezető h1 {
+    font-size: 300%;
+    text-align: center;
+}
+body.style2 section#bevezető p {
+    font-size: 130%;
+    text-align: justify;
+    padding-right: 8%;
+    padding-left: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+body.style2 div#tartalom {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    font-size: 150%;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    display: flex;
+    flex-wrap: wrap;
+}
+body.style2 div#tartalom img {
+    width: 70%;
+    height: auto;
+}
+body.style2 div#tartalom figure {
+    flex: 1 1 10%;
+    margin: 1%;
+}
+
+body.style2 div#main {
+    background-color: #ffffff;
+}
+body.style2 div#main img{
+    margin: 2%;
+    clear: both;
+    width: 20%;
+    height: auto;
+    border: #000000 solid 1px;
+    box-shadow: #233d2f 7px 7px 10px;
+}
+body.style2 div#main p {
+    margin: 2%;
+    float: right;
+    font-size: 150%;
+    text-align: justify;
+    width: 70%;
+}
+body.style2 div#main hr {
+    border-color: #000000;
+}

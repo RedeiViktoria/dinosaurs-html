@@ -1,0 +1,75 @@
+/*KIPOZÍCIONÁL*/
+.kipozicional a{
+    position: absolute;
+    left: -99999px;
+}
+.kipozicional a:focus{
+    position: static;
+    background-color: #ffffff;
+}
+
+/*UGRÁS*/
+a#ugras {
+    background-color: #223c2f;
+    width: 100%;
+    color: #000000;
+}
+a:visited {
+    color: #ffffff;
+}
+
+/*STÍLUSLAP*/
+div#stilus {
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000000;
+    justify-content: flex-start;
+    font-size: 100%;
+}
+select{
+    flex: 1 1 10%;
+    max-width: 8%;
+    background-color: #ffffff;
+}
+/*HEADER*/
+header {
+    background-color: #223c2f;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+header img {
+    width: 30%;
+    height: auto;
+}
+header div { 
+    flex: 1 1 10%;
+}
+header nav {
+    display: flex;
+}
+div#gombok a {
+    border: #000000 solid 1px;
+    background-color:#ffffff;
+    float: left;
+    padding: 10px; /*át kéne írni %-ra, de elcsúszik*/
+    font-size: 140%;
+    font-weight: bold;
+    flex: 1 1 10%;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: #223c2f;
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 1px;
+    padding: 2%;
+    column-count: 2;
+    text-align: center;
+    column-rule: 1px solid #000000;
+    clear: both;
+}
